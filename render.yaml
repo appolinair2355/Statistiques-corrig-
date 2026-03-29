@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: bot-baccara-telegram
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_telegram_baccara.py
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: PYTHON_VERSION
+        value: 3.12.0
+    healthCheckPath: /health
