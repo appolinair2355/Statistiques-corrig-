@@ -1,10 +1,10 @@
 {
     "telegram": {
-        "bot_token": "7861494356:AAEKXCsFgqZgzzj7JdXmqCvwR_0BbTM-6TM",
-        "admin_id": 1190237801,
-        "main_channel": -1003828164284,
+        "bot_token": "8302723948:AAFFCBDXTzadWLTBC1eEdpTnxesr48-DCUY",
+        "admin_id": 8649780855,
+        "main_channel": -1002699763359,
         "redirect_channels": [
-            -1003828164284
+            -1002699763359
         ],
         "notification_on_error": true
     },
